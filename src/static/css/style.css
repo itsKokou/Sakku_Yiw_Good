@@ -9,3 +9,39 @@
     background-size: cover;
     background-position: center;
 }
+.transparent-background {  
+    background-color: rgba(255, 255, 255, 0); /* Transparence totale */  
+}
+.text-green{
+    color: #009368;
+}
+.bg-green{
+    background-color: #009368;
+}
+.columun-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.he70{
+    height: 100vh;
+}
+.f-right{
+    float: right;
+}
+.flex-colm{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+@media (min-width: 768px) {  
+    .mt--10 {  
+       margin-top: -10%;
+    }  
+}
+@media only screen and (max-width: 767px) {  
+    .mt--30{
+        margin-top: -40%;
+    }
+}  
