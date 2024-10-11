@@ -3,6 +3,9 @@
 *{
     font-family: "Inter", sans-serif;
 }
+.menu-transition {  
+    transition: transform 0.3s ease;  
+}  
 
 .bg_url{
     background-repeat: no-repeat;
@@ -40,8 +43,47 @@
        margin-top: -10%;
     }  
 }
+@media (min-width: 768px) {  
+    .h60 {  
+       height: 50vh;
+    }  
+}
+@media (min-width: 768px) {  
+    .h70 {  
+       height: 70vh;
+    }  
+}
+@media (min-width: 768px) {  
+    .w33 {  
+       width:33% ;
+    }  
+
+}
+@media (min-width: 768px) {  
+    .w28 {  
+       width:30% ;
+    }  
+
+}
+@media (min-width: 768px) {  
+    .w49 {  
+       width:33% ;
+    }  
+
+}
+
 @media only screen and (max-width: 767px) {  
     .mt--30{
         margin-top: -40%;
     }
-}  
+} 
+@media only screen and (max-width: 767px) {  
+    .h40{
+        height: 40vh;
+    }
+} 
+@media only screen and (max-width: 767px) {  
+    .h50{
+        height: 50vh;
+    }
+} 
