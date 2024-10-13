@@ -10,6 +10,9 @@ module.exports = {
         'primary': "#009368",
         'secondary': "#ECA30C"
       },
+      width: {
+        '28%' : '28%'
+      }
     },
   },
   plugins: [
