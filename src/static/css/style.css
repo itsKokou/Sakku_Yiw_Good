@@ -85,8 +85,8 @@
     }
 } 
 @media only screen and (max-width: 767px) {  
-    .h50{
-        height: 50vh;
+    .h40{
+        height: 40vh;
     }
 } 
 
@@ -96,7 +96,12 @@
     }  
 }
 @media only screen and (max-width: 767px) {  
-    .h65{
-        height: 65vh;
+    .h48{
+        height: 48vh;
     }
 }
+/* @media only screen and (max-width: 767px) {  
+    .h60{
+        height: 60vh;
+    }
+} */
