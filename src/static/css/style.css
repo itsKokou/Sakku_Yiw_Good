@@ -40,66 +40,60 @@
     flex-direction: column; 
     align-items: center;
 }
+
 @media (min-width: 768px) {  
     .mt--10 {  
        margin-top: -10%;
-    }  
-}
-@media (min-width: 768px) {  
+    } 
+    .h80 {  
+       height: 80vh;
+    } 
     .h60 {  
        height: 50vh;
-    }  
-}
-@media (min-width: 768px) {  
+    } 
     .h70 {  
        height: 70vh;
-    }  
-}
-@media (min-width: 768px) {  
+    } 
+    
     .w33 {  
        width:33% ;
     }  
-
-}
-@media (min-width: 768px) {  
     .w28 {  
        width:30% ;
     }  
-
-}
-@media (min-width: 768px) {  
     .w49 {  
        width:33% ;
     }  
-
-}
-
-@media only screen and (max-width: 767px) {  
-    .mt--30{
-        margin-top: -40%;
-    }
-} 
-@media only screen and (max-width: 767px) {  
-    .h40{
-        height: 40vh;
-    }
-} 
-@media only screen and (max-width: 767px) {  
-    .h40{
-        height: 40vh;
-    }
-} 
-
-@media (min-width: 768px) {  
-    .h80 {  
-       height: 80vh;
+    .w47 {  
+       width:47% ;
     }  
+    .h-500px{
+        height: 500px;
+    }
 }
+
+
 @media only screen and (max-width: 767px) {  
+    .h64{
+        height: 64vh;
+    }
     .h48{
         height: 48vh;
     }
+    .h40{
+        height: 40vh;
+    }
+    .mt--30{
+        margin-top: -40%;
+    }
+    .h50 {  
+       height: 50vh;
+    } 
+    .h-300px{
+        height: 300px;
+    }
 }
+
 /* @media only screen and (max-width: 767px) {  
     .h60{
         height: 60vh;

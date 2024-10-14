@@ -3,6 +3,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const indicators_carousel_1 = document.querySelectorAll('#home-carousel-1 button[data-carousel-slide-to]');
     const indicators_carousel_2 = document.querySelectorAll('#home-carousel-2 button[data-carousel-slide-to]');
+    const indicators_force_carousel_1 = document.querySelectorAll('#force-carousel-1 button[data-carousel-slide-to]');
 
     // Fonction pour mettre à jour le style du bouton actif
     function updateActiveIndicator(list_indicator) {
@@ -35,6 +36,13 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
+    const observer3 = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+            if (mutation.type === 'attributes' && mutation.attributeName === 'aria-current') {
+                updateActiveIndicator(indicators_force_carousel_1);
+            }
+        });
+    });
 
     // Configurer l'observation pour chaque bouton
     indicators_carousel_1.forEach((indicator) => {
@@ -43,9 +51,13 @@ document.addEventListener('DOMContentLoaded', function () {
     indicators_carousel_2.forEach((indicator) => {
         observer2.observe(indicator, { attributes: true });
     });
+    indicators_force_carousel_1.forEach((indicator) => {
+        observer3.observe(indicator, { attributes: true });
+    });
 
     // Initialiser l'état de l'indicateur actif au chargement
     updateActiveIndicator(indicators_carousel_1);
     updateActiveIndicator(indicators_carousel_2);
+    updateActiveIndicator(indicators_force_carousel_1);
 });
 

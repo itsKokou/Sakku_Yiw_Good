@@ -124,7 +124,7 @@
     <!-- Fin Header -->
 
     <div class="bg_url w-full" style="background-image: url('../static/images/force_partage.png');">
-        <div class="mx-auto max-w-screen-lg text-white py-6">
+        <div class="mx-auto max-w-screen-lg text-white py-6 px-8 md:px-0">
             <h1 class="text-3xl font-semibold mt-36" >Ramadan 2021 - La Force du Partage</h1>
             <hr class="mt-2 w-11 bg-secondary h-0.5 rounded border-none">
             <p class="text-secondary text-sm mt-24"> 
@@ -135,11 +135,13 @@
     </div>
 
     <main class="pt-20 pb-10">
-        <div class="mx-auto max-w-screen-lg w-full rounded-lg flex justify-end p-8" style="background-image: url('../static/images/joel.png'); height:500px;">
-            <p class="bg-primary px-4 py-2 text-white rounded w-fit h-fit">Éducation</p>
+        <div class="px-8 md:px-0">
+            <div class="mx-auto max-w-screen-lg w-full rounded-lg flex justify-end p-8 bg_url h-500px h-300px" style="background-image: url('../static/images/joel.png'); ">
+                <p class="bg-primary px-4 py-2 text-white rounded w-fit h-fit">Éducation</p>
+            </div>
         </div>
 
-        <div class="mx-auto max-w-screen-lg px-40 -mt-20 ">
+        <div class="mx-auto max-w-screen-lg px-12 md:px-40 -mt-20 ">
             <div class=" bg-white rounded-md p-8 drop-shadow-md">
                 <h1 class="text-3xl font-semibold" >Ramadan 2021 - La Force du Partage</h1>
                 <h1 class="text-3xl font-semibold mb-4" >Xème Édition</h1>
@@ -147,56 +149,74 @@
                 
                 <div class="mb-8">
                     <h6 class=" font-semibold text-lg">Colis Alimentaire</h6>
-                    <div class="flex justify-center w-8/12 -mb-4">
+                    <div class="flex justify-center w-full md:w-8/12 md:-mb-4">
                         <span class="text-sm font-medium text-primary">0%</span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <div class="w-8/12 bg-gray-200 rounded-full h-2.5 ">
+                        <div class="w-full md:w-8/12 bg-gray-200 rounded-full h-2.5 ">
                             <div class="bg-primary h-2.5 rounded-full" style="width: 2.5%"></div>
                         </div>
-                        <a href="#" class=" w-3/12 text-center  text-sm text-white border border-secondary bg-secondary rounded py-3 focus:ring-4 focus:ring-amber-600 hover:bg-amber-600 hover:border-amber-600">
+                        <a href="#" class="hidden md:block w-3/12 text-center font-medium text-sm text-white border border-secondary bg-secondary rounded py-3 focus:ring-4 focus:ring-amber-600 hover:bg-amber-600 hover:border-amber-600">
                             Offrir Un Colis
                         </a>
                     </div>
-                    <div class="flex justify-between items-center w-8/12">
+                    <div class="flex justify-between items-center w-full md:w-8/12">
                         <p class="text-sm">Financé : <span class="text-secondary font-bold">0 Colis</span></p>
                         <p class="text-sm">Objectif : <span class="text-primary font-bold">1600</span></p>
+                    </div>
+                    <!--Mobile-->
+                    <div class="flex md:hidden justify-center items-center mt-3">
+                        <a href="#" class=" w-fit px-5 text-center font-medium text-sm text-white border border-secondary bg-secondary rounded py-2 focus:ring-4 focus:ring-amber-600 hover:bg-amber-600 hover:border-amber-600">
+                            Offrir Un Colis
+                        </a>
                     </div>
                 </div>
                 <div class="mb-8">
                     <h6 class=" font-semibold text-lg">Fauteuil Roulant</h6>
-                    <div class="flex justify-center w-8/12 -mb-4">
+                    <div class="flex justify-center w-full md:w-8/12 md:-mb-4">
                         <span class="text-sm font-medium text-primary">0%</span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <div class="w-8/12 bg-gray-200 rounded-full h-2.5 ">
+                        <div class="w-full md:w-8/12 bg-gray-200 rounded-full h-2.5 ">
                             <div class="bg-primary h-2.5 rounded-full" style="width: 2.5%"></div>
                         </div>
-                        <a href="#" class=" w-3/12 text-center  text-sm text-white border border-secondary bg-secondary rounded py-3 focus:ring-4 focus:ring-amber-600 hover:bg-amber-600 hover:border-amber-600">
+                        <a href="#" class="hidden md:block w-3/12 text-center font-medium  text-sm text-white border border-secondary bg-secondary rounded py-3 focus:ring-4 focus:ring-amber-600 hover:bg-amber-600 hover:border-amber-600">
                             Offrir Un Fauteuil
                         </a>
                     </div>
-                    <div class="flex justify-between items-center w-8/12">
+                    <div class="flex justify-between items-center w-full md:w-8/12">
                         <p class="text-sm">Financé : <span class="text-secondary font-bold">0 Fauteuil</span></p>
                         <p class="text-sm">Objectif : <span class="text-primary font-bold">140</span></p>
+                    </div>
+                    <!--Mobile-->
+                    <div class="flex md:hidden justify-center items-center mt-3">
+                        <a href="#" class=" w-fit px-5 text-center font-medium text-sm text-white border border-secondary bg-secondary rounded py-2 focus:ring-4 focus:ring-amber-600 hover:bg-amber-600 hover:border-amber-600">
+                            Offrir Un Fauteuil
+                        </a>
                     </div>
                 </div>
                 <div class="mb-6">
                     <h6 class=" font-semibold text-lg">Construction de Puit</h6>
-                    <div class="flex justify-center w-8/12 -mb-4">
+                    <div class="flex justify-center w-full md:w-8/12 md:-mb-4">
                         <span class="text-sm font-medium text-primary">0%</span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <div class="w-8/12 bg-gray-200 rounded-full h-2.5 ">
+                        <div class="w-full md:w-8/12 bg-gray-200 rounded-full h-2.5 ">
                             <div class="bg-primary h-2.5 rounded-full" style="width: 2.5%"></div>
                         </div>
-                        <a href="#" class=" w-3/12 text-center text-sm text-white border border-secondary bg-secondary rounded py-3 focus:ring-4 focus:ring-amber-600 hover:bg-amber-600 hover:border-amber-600">
+                        <a href="#" class="hidden md:block w-3/12 text-center font-medium text-sm text-white border border-secondary bg-secondary rounded py-3 focus:ring-4 focus:ring-amber-600 hover:bg-amber-600 hover:border-amber-600">
                             Offrir Un Puit
                         </a>
                     </div>
-                    <div class="flex justify-between items-center w-8/12">
+                    <div class="flex justify-between items-center w-full md:w-8/12">
                         <p class="text-sm">Financé : <span class="text-secondary font-bold">0 Puit</span></p>
                         <p class="text-sm">Objectif : <span class="text-primary font-bold">50</span></p>
+                    </div>
+                    <!--Mobile-->
+                    <div class="flex md:hidden justify-center items-center mt-3">
+                        <a href="#" class=" w-fit px-5 text-center font-medium text-sm text-white border border-secondary bg-secondary rounded py-2 focus:ring-4 focus:ring-amber-600 hover:bg-amber-600 hover:border-amber-600">
+                            Offrir Un Puit
+                        </a>
                     </div>
                 </div>
             </div>
@@ -207,9 +227,9 @@
                     Tellus cras adipiscing enim eu turpis egestas pretium aenean. Gravida quis blandit turpis cursus in hac habitasse. Aliquet bibendum enim facilisis gravida neque convallis a cras. Tristique senectus et netus et malesuada fames. Velit scelerisque in dictum non consectetur a erat nam at. Scelerisque viverra mauris in aliquam sem fringilla. Hendrerit dolor magna eget est.
                 </p>
                 
-                <div id="default-carousel" class="relative w-full" data-carousel="slide">
+                <div id="force-carousel-1" class="relative w-full" data-carousel="slide">
                     <!-- Carousel wrapper -->
-                    <div class="relative h-56 overflow-hidden md:h-60 flex flex-wrap justify-between gap-4">
+                    <div class="relative h-32 overflow-hidden md:h-60 flex flex-wrap justify-between gap-4">
                         <div class="hidden rounded-lg duration-700 ease-in-out  w-1/2"  data-carousel-item>
                             <img src="../static/images/f1.png" class="rounded-lg" style="width: 99%; padding:0px 1%;">
                         </div>
@@ -226,16 +246,16 @@
                             <img src="../static/images/force3.jpg" class="rounded-lg" style="width: 99%; padding:0px 1%;">
                         </div>
                     </div>
-                    <!-- Slider indicators
-                    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+                    <!-- Slider indicators -->
+                    <div class="absolute z-30 flex md:hidden -translate-x-1/2 -bottom-2 left-1/2 space-x-3 rtl:space-x-reverse">
                         <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
                         <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
                         <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
                         <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
                         <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
-                    </div> -->
+                    </div>
                     <!-- Slider controls -->
-                    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <button type="button" class="hidden md:flex absolute top-0 start-0 z-30 items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
                         <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-secondary  group-focus:ring-0 group-focus:ring-none  group-focus:outline-none">
                             <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
@@ -243,7 +263,7 @@
                             <span class="sr-only">Previous</span>
                         </span>
                     </button>
-                    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <button type="button" class="hidden md:flex absolute top-0 end-0 z-30 items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
                         <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-secondary group-focus:ring-0 group-focus:ring-none group-focus:outline-none">
                             <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
@@ -259,18 +279,18 @@
             <h6 class=" font-semibold text-xl">Les Actions Réalisées</h6>
             <hr class="mt-2 mx-auto w-11 mb-6 bg-secondary rounded border-none" style="height: 3px;">
             
-            <div class=" flex items-center justify-between mb-6">
-                <div class="flex rounded-md" style="width: 47%; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);">
-                    <a href="#"><img src="../static/images/force1.jpg" class=" h-24 w-40 rounded-s-md" alt=""></a>
-                    <div class="px-5 text-start">
-                        <div class="flex items-center mt-3">
+            <div class="block px-8 md:px-0 md:flex items-center justify-between md:mb-6">
+                <div class="block md:flex mb-4 md:mb-0 rounded-md w-full w47" style=" box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);">
+                    <a href="#"><img src="../static/images/force1.jpg" class=" w-full h-44 md:h-24 md:w-40 rounded-t-md md:rounded-t-none md:rounded-s-md" alt=""></a>
+                    <div class="px-5 pb-3 md:pb-0 text-start">
+                        <div class="md:flex items-center mt-3">
                             <div class="flex items-center mr-5">
                                 <svg class="w-4 h-4 text-secondary mr-0.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path fill-rule="evenodd" d="M5 5a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1 2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a2 2 0 0 1 2-2ZM3 19v-7a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm6.01-6a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm-10 4a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Z" clip-rule="evenodd"/>
                                 </svg>
                                 <span class="text-primary font-semibold text-xs">22/06/2022  </span>
                             </div>
-                            <div class="flex items-center">
+                            <div class="flex items-center pt-1 md:pt-0">
                                 <svg class="w-4 h-4 text-secondary" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
                                 </svg>
@@ -278,22 +298,22 @@
                             </div>
                         </div>
                         <a href="#">
-                            <p class=" text-black hover:text-secondary font-semibold mt-2 text-lg leading-6">Étape 1 : Distribution de 100 kits à Louga</p>
+                            <p class=" text-black hover:text-secondary font-bold md:font-semibold mt-3 md:mt-2 text-lg leading-6">Étape 1 : Distribution de 100 kits à Louga</p>
                         </a>
                     </div>
                 </div>
 
-                <div class="flex rounded-md" style="width: 47%; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);">
-                    <a href="#"><img src="../static/images/force2.jpg" class=" h-24 w-40 rounded-s-md" alt=""></a>
-                    <div class="px-5 text-start">
-                        <div class="flex items-center mt-3">
+                <div class="block md:flex mb-4 md:mb-0 rounded-md w-full w47" style=" box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);">
+                    <a href="#"><img src="../static/images/force2.jpg" class=" w-full h-44 md:h-24 md:w-40 rounded-t-md md:rounded-t-none md:rounded-s-md" alt=""></a>
+                    <div class="px-5 pb-3 md:pb-0 text-start">
+                        <div class="md:flex items-center mt-3">
                             <div class="flex items-center mr-5">
                                 <svg class="w-4 h-4 text-secondary mr-0.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path fill-rule="evenodd" d="M5 5a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1 2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a2 2 0 0 1 2-2ZM3 19v-7a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm6.01-6a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm-10 4a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Z" clip-rule="evenodd"/>
                                 </svg>
                                 <span class="text-primary font-semibold text-xs">03/07/2022</span>
                             </div>
-                            <div class="flex items-center">
+                            <div class="flex items-center pt-1 md:pt-0">
                                 <svg class="w-4 h-4 text-secondary" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
                                 </svg>
@@ -301,24 +321,24 @@
                             </div>
                         </div>
                         <a href="#">
-                            <p class=" text-black hover:text-secondary font-semibold mt-2 text-lg leading-6">Étape 2 : Distribution de 75 kits à Bignona</p>
+                            <p class=" text-black hover:text-secondary font-bold md:font-semibold mt-3 md:mt-2 text-lg leading-6">Étape 2 : Distribution de 75 kits à Bignona</p>
                         </a>
                     </div>
                 </div>
             </div>
 
-            <div class=" flex items-center justify-between mb-6">
-                <div class="flex rounded-md" style="width: 47%; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);">
-                    <a href="#"><img src="../static/images/force3.jpg" class=" h-24 w-44 rounded-s-md" alt=""></a>
-                    <div class="px-5 text-start">
-                        <div class="flex items-center mt-3">
+            <div class="block px-8 md:px-0 md:flex items-center justify-between md:mb-6">
+                <div class="block md:flex mb-4 md:mb-0 rounded-md w-full w47" style=" box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);">
+                    <a href="#"><img src="../static/images/force3.jpg" class="  w-full h-44 md:h-24 md:w-40 rounded-t-md md:rounded-t-none md:rounded-s-md" alt=""></a>
+                    <div class="px-5 pb-3 md:pb-0 text-start">
+                        <div class="md:flex items-center mt-3">
                             <div class="flex items-center mr-5">
                                 <svg class="w-4 h-4 text-secondary mr-0.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path fill-rule="evenodd" d="M5 5a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1 2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a2 2 0 0 1 2-2ZM3 19v-7a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm6.01-6a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm-10 4a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Z" clip-rule="evenodd"/>
                                 </svg>
                                 <span class="text-primary font-semibold text-xs">12/07/2022</span>
                             </div>
-                            <div class="flex items-center">
+                            <div class="flex items-center pt-1 md:pt-0">
                                 <svg class="w-4 h-4 text-secondary" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
                                 </svg>
@@ -326,22 +346,22 @@
                             </div>
                         </div>
                         <a href="#">
-                            <p class=" text-black hover:text-secondary font-semibold mt-2 text-lg leading-6">Étape 3 : Distribution de 150 kits à Linguerre</p>
+                            <p class=" text-black hover:text-secondary font-bold md:font-semibold mt-3 md:mt-2 text-lg leading-6">Étape 3 : Distribution de 150 kits à Linguerre</p>
                         </a>
                     </div>
                 </div>
 
-                <div class="flex rounded-md" style="width: 47%; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);">
-                    <a href="#"><img src="../static/images/force4.jpg" class=" h-24 w-40 rounded-s-md" alt=""></a>
-                    <div class="px-5 text-start">
-                        <div class="flex items-center mt-3">
+                <div class="block md:flex mb-4 md:mb-0 rounded-md w-full w47" style=" box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);">
+                    <a href="#"><img src="../static/images/force4.jpg" class=" w-full h-44 md:h-24 md:w-40 rounded-t-md md:rounded-t-none md:rounded-s-md" alt=""></a>
+                    <div class="px-5 pb-3 md:pb-0 text-start">
+                        <div class="md:flex items-center mt-3">
                             <div class="flex items-center mr-5">
                                 <svg class="w-4 h-4 text-secondary mr-0.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path fill-rule="evenodd" d="M5 5a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1 2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a2 2 0 0 1 2-2ZM3 19v-7a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm6.01-6a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm-10 4a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Z" clip-rule="evenodd"/>
                                 </svg>
                                 <span class="text-primary font-semibold text-xs">27/08/2022</span>
                             </div>
-                            <div class="flex items-center">
+                            <div class="flex items-center pt-1 md:pt-0">
                                 <svg class="w-4 h-4 text-secondary" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
                                 </svg>
@@ -349,24 +369,24 @@
                             </div>
                         </div>
                         <a href="#">
-                            <p class=" text-black hover:text-secondary font-semibold mt-2 text-lg leading-6">Étape 4 : Distribution de 80 kits à Kaolack</p>
+                            <p class=" text-black hover:text-secondary font-bold md:font-semibold mt-3 md:mt-2 text-lg leading-6">Étape 4 : Distribution de 80 kits à Kaolack</p>
                         </a>
                     </div>
                 </div>
             </div>
             
-            <div class=" flex items-center justify-between mb-6">
-                <div class="flex rounded-md" style="width: 47%; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);">
-                    <a href="#"><img src="../static/images/force5.jpg" class=" h-24 w-40 rounded-s-md" alt=""></a>
-                    <div class="px-5 text-start">
-                        <div class="flex items-center mt-3">
+            <div class="block px-8 md:px-0 md:flex items-center justify-between md:mb-6">
+                <div class="block md:flex mb-4 md:mb-0 rounded-md w-full w47" style=" box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);">
+                    <a href="#"><img src="../static/images/force5.jpg" class=" w-full h-44 md:h-24 md:w-40 rounded-t-md md:rounded-t-none md:rounded-s-md" alt=""></a>
+                    <div class="px-5 pb-3 md:pb-0 text-start">
+                        <div class="md:flex items-center mt-3">
                             <div class="flex items-center mr-5">
                                 <svg class="w-4 h-4 text-secondary mr-0.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path fill-rule="evenodd" d="M5 5a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1 2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a2 2 0 0 1 2-2ZM3 19v-7a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm6.01-6a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm-10 4a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Z" clip-rule="evenodd"/>
                                 </svg>
                                 <span class="text-primary font-semibold text-xs">22/06/2022</span>
                             </div>
-                            <div class="flex items-center">
+                            <div class="flex items-center pt-1 md:pt-0">
                                 <svg class="w-4 h-4 text-secondary" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
                                 </svg>
@@ -374,22 +394,22 @@
                             </div>
                         </div>
                         <a href="#">
-                            <p class=" text-black hover:text-secondary font-semibold mt-2 text-lg leading-6">Étape 5 : Distribution de 100 kits à Louga</p>
+                            <p class=" text-black hover:text-secondary font-bold md:font-semibold mt-3 md:mt-2 text-lg leading-6">Étape 5 : Distribution de 100 kits à Louga</p>
                         </a>
                     </div>
                 </div>
 
-                <div class="flex rounded-md" style="width: 47%; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);">
-                    <a href="#"><img src="../static/images/force6.jpg" class=" h-24 w-40 rounded-s-md" alt=""></a>
-                    <div class="px-5 text-start">
-                        <div class="flex items-center mt-3">
+                <div class="block md:flex mb-4 md:mb-0 rounded-md w-full w47" style=" box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);">
+                    <a href="#"><img src="../static/images/force6.jpg" class=" w-full h-44 md:h-24 md:w-40 rounded-t-md md:rounded-t-none md:rounded-s-md" alt=""></a>
+                    <div class="px-5 pb-3 md:pb-0 text-start">
+                        <div class="md:flex items-center mt-3">
                             <div class="flex items-center mr-5">
                                 <svg class="w-4 h-4 text-secondary mr-0.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path fill-rule="evenodd" d="M5 5a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1 2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a2 2 0 0 1 2-2ZM3 19v-7a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm6.01-6a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm-10 4a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Z" clip-rule="evenodd"/>
                                 </svg>
                                 <span class="text-primary font-semibold text-xs">03/07/2022</span>
                             </div>
-                            <div class="flex items-center">
+                            <div class="flex items-center pt-1 md:pt-0">
                                 <svg class="w-4 h-4 text-secondary" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
                                 </svg>
@@ -397,24 +417,24 @@
                             </div>
                         </div>
                         <a href="#">
-                            <p class=" text-black hover:text-secondary font-semibold mt-2 text-lg leading-6">Étape 6 : Distribution de 75 kits à Bignona</p>
+                            <p class=" text-black hover:text-secondary font-bold md:font-semibold mt-3 md:mt-2 text-lg leading-6">Étape 6 : Distribution de 75 kits à Bignona</p>
                         </a>
                     </div>
                 </div>
             </div>
 
-            <div class=" flex items-center justify-between mb-6">
-                <div class="flex rounded-md" style="width: 47%; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);">
-                    <a href="#"><img src="../static/images/force7.jpg" class=" h-24 w-44 rounded-s-md" alt=""></a>
-                    <div class="px-5 text-start">
-                        <div class="flex items-center mt-3">
+            <div class="block px-8 md:px-0 md:flex items-center justify-between md:mb-6">
+                <div class="block md:flex mb-4 md:mb-0 rounded-md w-full w47" style=" box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);">
+                    <a href="#"><img src="../static/images/force7.jpg" class="  w-full h-44 md:h-24 md:w-40 rounded-t-md md:rounded-t-none md:rounded-s-md" alt=""></a>
+                    <div class="px-5 pb-3 md:pb-0 text-start">
+                        <div class="md:flex items-center mt-3">
                             <div class="flex items-center mr-5">
                                 <svg class="w-4 h-4 text-secondary mr-0.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path fill-rule="evenodd" d="M5 5a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1 2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a2 2 0 0 1 2-2ZM3 19v-7a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm6.01-6a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm-10 4a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Z" clip-rule="evenodd"/>
                                 </svg>
                                 <span class="text-primary font-semibold text-xs">22/06/2022</span>
                             </div>
-                            <div class="flex items-center">
+                            <div class="flex items-center pt-1 md:pt-0">
                                 <svg class="w-4 h-4 text-secondary" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
                                 </svg>
@@ -422,22 +442,22 @@
                             </div>
                         </div>
                         <a href="#">
-                            <p class=" text-black hover:text-secondary font-semibold mt-2 text-lg leading-6">Étape 7 : Distribution de 150 kits à Linguerre</p>
+                            <p class=" text-black hover:text-secondary font-bold md:font-semibold mt-3 md:mt-2 text-lg leading-6">Étape 7 : Distribution de 150 kits à Linguerre</p>
                         </a>
                     </div>
                 </div>
 
-                <div class="flex rounded-md" style="width: 47%; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);">
-                    <a href="#"><img src="../static/images/force8.jpg" class=" h-24 w-40 rounded-s-md" alt=""></a>
-                    <div class="px-5 text-start">
-                        <div class="flex items-center mt-3">
+                <div class="block md:flex mb-4 md:mb-0 rounded-md w-full w47" style=" box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);">
+                    <a href="#"><img src="../static/images/force8.jpg" class=" w-full h-44 md:h-24 md:w-40 rounded-t-md md:rounded-t-none md:rounded-s-md" alt=""></a>
+                    <div class="px-5 pb-3 md:pb-0 text-start">
+                        <div class="md:flex items-center mt-3">
                             <div class="flex items-center mr-5">
                                 <svg class="w-4 h-4 text-secondary mr-0.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path fill-rule="evenodd" d="M5 5a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1 2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a2 2 0 0 1 2-2ZM3 19v-7a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm6.01-6a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm-10 4a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Z" clip-rule="evenodd"/>
                                 </svg>
                                 <span class="text-primary font-semibold text-xs">03/07/2022</span>
                             </div>
-                            <div class="flex items-center">
+                            <div class="flex items-center pt-1 md:pt-0">
                                 <svg class="w-4 h-4 text-secondary" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
                                 </svg>
@@ -445,52 +465,51 @@
                             </div>
                         </div>
                         <a href="#">
-                            <p class=" text-black hover:text-secondary font-semibold mt-2 text-lg leading-6">Étape 8 : Distribution de 80 kits à Kaolack</p>
+                            <p class=" text-black hover:text-secondary font-bold md:font-semibold mt-3 md:mt-2 text-lg leading-6">Étape 8 : Distribution de 80 kits à Kaolack</p>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class=" mt-20 mx-auto max-w-screen-md">      
-
+        <div class=" mt-20 px-8 md:px-0 md:mx-auto max-w-screen-md">      
             <div id="default-carousel" class="relative w-full border-y border-gray-300 mb-12" data-carousel="static">
                 <!-- Carousel wrapper -->
                 <div class="relative h-16 overflow-hidden rounded-lg ">
                     <!-- Item 1 -->
-                    <div class="hidden duration-700 ease-in-out w-1/2" data-carousel-item>
+                    <div class="hidden duration-700 ease-in-out w-full md:w-1/2" data-carousel-item>
                         <p class="absolute block w-full text-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 font-semibold px-5" >Création d’une Case de Santé au Village de Kolda</p>
                     </div>
                     <!-- Item 2 -->
-                    <div class="hidden duration-700 ease-in-out w-1/2" data-carousel-item>
+                    <div class="hidden duration-700 ease-in-out w-full md:w-1/2" data-carousel-item>
                         <p class="absolute block w-full text-center  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 font-semibold px-8" >Ramadan 2022 - 1443H : Force du Partage</p>
                     </div>
                     <!-- Item 3 -->
-                    <div class="hidden duration-700 ease-in-out w-1/2" data-carousel-item>
+                    <div class="hidden duration-700 ease-in-out w-full md:w-1/2" data-carousel-item>
                         <p class="absolute block w-full text-center  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 font-semibold px-5" >Création d’une Case de Santé au Village de Kolda</p>
                     </div>
                     <!-- Item 4 -->
-                    <div class="hidden duration-700 ease-in-out w-1/2" data-carousel-item>
+                    <div class="hidden duration-700 ease-in-out w-full md:w-1/2" data-carousel-item>
                         <p class="absolute block w-full text-center  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 font-semibold px-8" >Ramadan 2022 – 1443H : Force du Partage</p>
                     </div>
                     <!-- Item 5 -->
-                    <div class="hidden duration-700 ease-in-out w-1/2" data-carousel-item>
+                    <div class="hidden duration-700 ease-in-out w-full md:w-1/2" data-carousel-item>
                         <p class="absolute block w-full text-center  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 font-semibold px-5" >Création d’une Case de Santé au Village de Kolda</p>
                     </div>
                 </div>
                 
                 <!-- Slider controls -->
                 <button type="button" class="absolute top-0 -start-10 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-secondary group-hover:text-white dark:group-hover:bg-gray-800/60 group-focus:ring-0 group-focus:ring-none dark:group-focus:ring-secondary group-focus:outline-none">
-                        <svg class="w-4 h-4 text-gray-500 dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30  group-hover:bg-secondary group-hover:text-white group-focus:ring-0 group-focus:ring-none group-focus:outline-none">
+                        <svg class="w-4 h-4  rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 1 1 5l4 4"/>
                         </svg>
                         <span class="sr-only">Previous</span>
                     </span>
                 </button>
-                <button type="button" class="absolute top-0 -end-10 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-secondary dark:group-hover:bg-gray-800/60 group-focus:ring-0 group-focus:ring-none dark:group-focus:ring-secondary group-focus:outline-none">
-                        <svg class="w-4 h-4 text-gray-500 dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <button type="button" class="absolute top-0 -end-8 md:-end-10 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30  group-hover:bg-secondary group-hover:text-white group-focus:ring-0 group-focus:ring-none  group-focus:outline-none">
+                        <svg class="w-4 h-4  rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m1 9 4-4-4-4"/>
                         </svg>
                         <span class="sr-only">Next</span>
@@ -498,6 +517,7 @@
                 </button>
             </div>
 
+           
             <a href="#" class="mx-auto w-fit flex items-center py-2.5 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded border border-gray-500 hover:bg-secondary hover:border-secondary hover:text-white focus:z-10 focus:ring-4 focus:ring-secondary">
                 <span class="flex">
                     <span class="mr-2">Voir Tous Les Projets</span>
@@ -646,5 +666,6 @@
     <!-- Fin du Footer -->
 
     <script src="../../node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="../static/js/script.js"></script>
 </body>
 </html>
