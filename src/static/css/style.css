@@ -46,7 +46,7 @@
        margin-top: -10%;
     } 
     .h80 {  
-       height: 80vh;
+       height: 560px;
     } 
     .h60 {  
        height: 50vh;
@@ -70,12 +70,20 @@
     .h-500px{
         height: 500px;
     }
+    .pos-icon{
+        top: -70px;
+        left: 500px;
+    }
+    .pos-icon2{
+        bottom: -70px;
+        left: 100px;
+    }
 }
 
 
 @media only screen and (max-width: 767px) {  
     .h64{
-        height: 64vh;
+        height: 500px;
     }
     .h48{
         height: 48vh;
@@ -92,10 +100,13 @@
     .h-300px{
         height: 300px;
     }
-}
-
-/* @media only screen and (max-width: 767px) {  
-    .h60{
-        height: 60vh;
+    .pos-icon{
+        top: -22px;
+        left: 180px;
     }
-} */
+    .pos-icon2{
+        bottom: -30px;
+        left: 25px;
+    }
+    
+}

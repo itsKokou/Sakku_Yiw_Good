@@ -11,9 +11,14 @@ module.exports = {
         'secondary': "#ECA30C"
       },
       width: {
-        '28%' : '28%'
-      }
+        '28%' : '28%',
+        '55%' : '55%',
+        '35%' : '35%',
+        '85%' : '85%',
+      },
     },
+
+    
   },
   plugins: [
       require('flowbite/plugin')
