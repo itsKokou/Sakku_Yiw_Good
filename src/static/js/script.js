@@ -1,5 +1,3 @@
-
-
 document.addEventListener('DOMContentLoaded', function () {
     const indicators_carousel_1 = document.querySelectorAll('#home-carousel-1 button[data-carousel-slide-to]');
     const indicators_carousel_2 = document.querySelectorAll('#home-carousel-2 button[data-carousel-slide-to]');
@@ -59,5 +57,24 @@ document.addEventListener('DOMContentLoaded', function () {
     updateActiveIndicator(indicators_carousel_1);
     updateActiveIndicator(indicators_carousel_2);
     updateActiveIndicator(indicators_force_carousel_1);
+
+
+
+    /** --------------------------- GALERIE ------------------------------- */
+    const galeries = document.querySelectorAll(".galerie");
+    galeries.forEach((galerie)=>{
+        galerie.addEventListener('mouseover',(e)=>{
+            const galItem = galerie.querySelector('.galerie-item');
+            galItem.classList.remove("hidden");
+            galItem.classList.add("flex");
+        });
+    });
+    galeries.forEach((galerie)=>{
+        galerie.addEventListener('mouseout',(e)=>{
+            const galItem = galerie.querySelector('.galerie-item');
+            galItem.classList.remove("flex");
+            galItem.classList.add("hidden");
+        });
+    });
 });
 
