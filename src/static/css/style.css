@@ -78,6 +78,13 @@
         bottom: -70px;
         left: 100px;
     }
+    .max-w80{
+        max-width: 80% !important;
+    }
+    .zakat-md{
+        left: 7%;
+        bottom: -110px;
+    }
 }
 
 
@@ -108,5 +115,8 @@
         bottom: -30px;
         left: 25px;
     }
-    
+    .zakat-md{
+        left: 7%;
+        bottom: -40px;
+    }
 }

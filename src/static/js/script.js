@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', function () {
         mutations.forEach(function(mutation) {
             if (mutation.type === 'attributes' && mutation.attributeName === 'aria-current') {
                 updateActiveIndicator(indicators_carousel_1);
-                console.log("Hello");
             }
         });
     });
@@ -30,7 +29,6 @@ document.addEventListener('DOMContentLoaded', function () {
         mutations.forEach(function(mutation) {
             if (mutation.type === 'attributes' && mutation.attributeName === 'aria-current') {
                 updateActiveIndicator(indicators_carousel_2);
-                console.log("Hello");
             }
         });
     });
