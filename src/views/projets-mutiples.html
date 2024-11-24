@@ -139,12 +139,12 @@
     <main class="pt-16 md:pt-20 pb-10">
 
         <div class="mx-8 md:mx-auto md:flex max-w80">
-            <div class="w-full md:w-8/12">
-                <!--Item 1-->
-                <div class="md:flex justify-between mb-10">
-                    <div class="md:max-w-md mx-2 bg-white border border-gray-200 rounded-lg shadow mb-10 md:mb-0 ">
+            <div class="w-full md:w-8/12 ">
+                <div class="w-full grid grid-cols-1 md:grid-cols-2 md:gap-x-8 gap-y-12">
+                    <!--Item 1-->
+                    <div class="md:max-w-md mx-2 bg-white border border-gray-200 rounded-lg shadow">
                         <div class="rounded-t-lg bg_url h-52 flex justify-end p-4" style="background-image: url('../static/images/accueil/img11.png');">
-                           <p class="bg-primary text-sm px-4 py-2 text-white rounded w-fit h-fit">Eau</p>
+                            <p class="bg-primary text-sm px-4 py-2 text-white rounded w-fit h-fit">Eau</p>
                         </div>
                         <div class="p-5">
                             <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 ">Construction d’un Puit au Village de Tale</h5>
@@ -172,9 +172,9 @@
                         </div>
                     </div>
 
-                    <div class="md:max-w-md mx-2 bg-white border border-gray-200 rounded-lg shadow ">
+                    <div class="md:max-w-md mx-2 bg-white border border-gray-200 rounded-lg shadow">
                         <div class="rounded-t-lg bg_url h-52 flex justify-end p-4" style="background-image: url('../static/images/projet2.jpg');">
-                           <p class="bg-primary text-sm px-4 py-2 text-white rounded w-fit h-fit">Santé</p>
+                            <p class="bg-primary text-sm px-4 py-2 text-white rounded w-fit h-fit">Santé</p>
                         </div>
                         <div class="p-5">
                             <h5 class="mb-2 text-xl font-semibold tracking-tight text-gray-900 ">Case de Santé au Village de Kolda</h5>
@@ -198,14 +198,11 @@
                             </div>
                         </div>
                     </div>
-                    
-                </div>
 
-                <!--Item 2-->
-                <div class="md:flex justify-between mb-10">
-                    <div class="md:max-w-md mx-2 bg-white border border-gray-200 rounded-lg shadow mb-10 md:mb-0 ">
+                    
+                    <div class="md:max-w-md mx-2 bg-white border border-gray-200 rounded-lg shadow">
                         <div class="relative rounded-t-lg bg_url h-52 flex justify-end p-4" style="background-image: url('../static/images/card1.jpg');">
-                           <div class=" flex justify-end">
+                            <div class=" flex justify-end">
                                 <p class="bg-primary text-sm px-4 py-2 text-white rounded w-fit h-fit">Éducation</p>
                             </div>
                             <img src="../static/images/reserve.png" class="absolute -left-3 -top-3 md:-left-3 md:-top-3" style="height: 35%;" alt="">
@@ -225,9 +222,9 @@
                         </div>
                     </div>
 
-                    <div class="md:max-w-md mx-2 bg-white border border-gray-200 rounded-lg shadow mb-10 md:mb-0 ">
+                    <div class="md:max-w-md mx-2 bg-white border border-gray-200 rounded-lg shadow">
                         <div class="relative rounded-t-lg bg_url h-52 flex justify-end p-4" style="background-image: url('../static/images/projet4.jpg');">
-                           <div class=" flex justify-end">
+                            <div class=" flex justify-end">
                                 <p class="bg-primary text-sm px-4 py-2 text-white rounded w-fit h-fit">Pauvreté</p>
                             </div>
                             <img src="../static/images/finance.png" class="absolute -left-3 -top-3 md:-left-3 md:-top-3" style="height: 35%;" alt="">
@@ -246,13 +243,12 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                
 
-                <!--Item 3-->
-                <div class="md:flex justify-between mb-6">
-                    <div class="md:max-w-md mx-2 bg-white border border-gray-200 rounded-lg shadow mb-10 md:mb-0 ">
+                
+                    <div class="md:max-w-md mx-2 bg-white border border-gray-200 rounded-lg shadow">
                         <div class="relative rounded-t-lg bg_url h-52 flex justify-end p-4" style="background-image: url('../static/images/card3.jpg');">
-                           <div class=" flex justify-end">
+                            <div class=" flex justify-end">
                                 <p class="bg-primary text-sm px-4 py-2 text-white rounded w-fit h-fit">Éducation</p>
                             </div>
                             <img src="../static/images/cours.png" class="absolute -left-3 -top-3 md:-left-3 md:-top-3" style="height: 35%;" alt="">
@@ -272,9 +268,9 @@
                         </div>
                     </div>
 
-                    <div class="md:max-w-md mx-2 bg-white border border-gray-200 rounded-lg shadow mb-10 md:mb-0 ">
+                    <div class="md:max-w-md mx-2 bg-white border border-gray-200 rounded-lg shadow">
                         <div class="relative rounded-t-lg bg_url h-52 flex justify-end p-4" style="background-image: url('../static/images/accueil/img8.png');">
-                           <div class=" flex justify-end">
+                            <div class=" flex justify-end">
                                 <p class="bg-primary text-sm px-4 py-2 text-white rounded w-fit h-fit">Eau</p>
                             </div>
                             <img src="../static/images/realise.png" class="absolute -left-3 -top-3 md:-left-3 md:-top-3" style="height: 35%;" alt="">
@@ -293,11 +289,13 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                
 
+                    
+                </div>
                 <!--Debut Pagination-->
-                <div class="flex justify-center">
-                    <nav class="mt-8">
+                <div class="flex justify-center mt-10">
+                    <nav>
                         <ul class="inline-flex -space-x-px text-sm font-semibold">
                             <li class="!mr-3">
                                 <a href="#" class="flex items-center justify-center px-4 h-10 leading-tight text-white bg-secondary border rounded-full border-gray-300 hover:bg-amber-600 hover:text-white ">1</a>
@@ -313,6 +311,7 @@
                 </div>
                 <!--Fin Pagination-->
             </div>
+            
             <!-- Debut Section recherche-->
             <div class=" w-full md:w-4/12 md:px-6">
                 <h6 class=" font-bold text-lg mb-2 mt-6">Recherche</h6>
